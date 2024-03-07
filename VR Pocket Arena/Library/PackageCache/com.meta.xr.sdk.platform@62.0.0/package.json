@@ -1,0 +1,55 @@
+{
+  "name": "com.meta.xr.sdk.platform",
+  "displayName": "Meta XR Platform SDK",
+  "version": "62.0.0",
+  "description": "Use the Platform SDK to create social VR applications. Add Matchmaking, DLC, In-App Purchases, Cloud Storage, and more to your experience using the individual components of the SDK.",
+  "samples": [
+    {
+      "displayName": "App Deep Linking",
+      "description": "Scenes that demonstrate how to launch other apps through the Platform SDK",
+      "path": "Samples~/AppDeepLink"
+    },
+    {
+      "displayName": "Entitlement Check",
+      "description": "Scenes that demonstrates performing an entitlement check for a user on an application",
+      "path": "Samples~/EntitlementCheck"
+    },
+    {
+      "displayName": "Group Presence",
+      "description": "Scenes that demonstrate group presence",
+      "path": "Samples~/GroupPresenceSample"
+    },
+    {
+      "displayName": "Reporting Callback",
+      "description": "Scenes that demonstrate reporting callback",
+      "path": "Samples~/ReportingCallbackSample"
+    },
+    {
+      "displayName": "Simple Platform",
+      "description": "Scenes that demonstrate simple platform",
+      "path": "Samples~/SimplePlatformSample"
+    }
+  ],
+  "unity": "2021.3",
+  "unityRelease": "26f1",
+  "author": {
+    "name": "Meta Platforms, Inc.",
+    "url": "https://developer.oculus.com/"
+  },
+  "documentationUrl": "https://developer.oculus.com/documentation/unity/",
+  "changelogUrl": "https://developer.oculus.com/downloads/package/unity-integration/",
+  "licensesUrl": "https://developer.oculus.com/licenses/oculussdk",
+  "licenseMessage": "By adding or using this package you agree to the terms and conditions of the Meta Platforms Technologies SDK License Agreement: https://developer.oculus.com/licenses/oculussdk",
+  "keywords": [
+    "SDK",
+    "Quest",
+    "XR",
+    "Platform",
+    "Meta",
+    "Oculus"
+  ],
+  "dependencies": {
+    "com.meta.xr.sdk.core": "62.0.0",
+    "com.unity.ugui": "1.0.0"
+  }
+}
